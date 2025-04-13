@@ -21,8 +21,6 @@ services:
       context: ./knotw
     environment:
       - WS_URL=ws://knot-webui-backend:7007/ws
-    ports:
-      - 3000:3000
     volumes:
       - ./knotw/src:/app/src
 
